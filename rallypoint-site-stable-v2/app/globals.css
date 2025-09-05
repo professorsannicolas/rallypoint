@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand-primary: #164C3A; /* forest green */
+  --brand-accent: #C0D9CD;
+  --brand-bg: #F4F8F6; /* clean light background */
+}
+
+html, body { scroll-behavior: smooth; background: var(--brand-bg); }
